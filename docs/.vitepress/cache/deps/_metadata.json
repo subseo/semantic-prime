@@ -1,0 +1,76 @@
+{
+  "hash": "fcf54783",
+  "configHash": "dc6296b9",
+  "lockfileHash": "00e5938c",
+  "browserHash": "ac9cda3b",
+  "optimized": {
+    "vue": {
+      "src": "../../../../node_modules/.pnpm/vue@3.4.21_typescript@5.4.3/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "cf1a7013",
+      "needsInterop": false
+    },
+    "vitepress > @vue/devtools-api": {
+      "src": "../../../../node_modules/.pnpm/@vue+devtools-api@7.0.25_vue@3.4.21/node_modules/@vue/devtools-api/dist/index.js",
+      "file": "vitepress___@vue_devtools-api.js",
+      "fileHash": "b9a65ed7",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/core": {
+      "src": "../../../../node_modules/.pnpm/@vueuse+core@10.9.0_vue@3.4.21/node_modules/@vueuse/core/index.mjs",
+      "file": "vitepress___@vueuse_core.js",
+      "fileHash": "6e1c0fdc",
+      "needsInterop": false
+    },
+    "primevue/slider": {
+      "src": "../../../../node_modules/.pnpm/primevue@3.50.0_vue@3.4.21/node_modules/primevue/slider/slider.esm.js",
+      "file": "primevue_slider.js",
+      "fileHash": "b4b215f0",
+      "needsInterop": false
+    },
+    "primevue/config": {
+      "src": "../../../../node_modules/.pnpm/primevue@3.50.0_vue@3.4.21/node_modules/primevue/config/config.esm.js",
+      "file": "primevue_config.js",
+      "fileHash": "d6b7f007",
+      "needsInterop": false
+    },
+    "primevue/inputswitch": {
+      "src": "../../../../node_modules/.pnpm/primevue@3.50.0_vue@3.4.21/node_modules/primevue/inputswitch/inputswitch.esm.js",
+      "file": "primevue_inputswitch.js",
+      "fileHash": "c390806e",
+      "needsInterop": false
+    },
+    "primevue/menubar": {
+      "src": "../../../../node_modules/.pnpm/primevue@3.50.0_vue@3.4.21/node_modules/primevue/menubar/menubar.esm.js",
+      "file": "primevue_menubar.js",
+      "fileHash": "b10eb1e0",
+      "needsInterop": false
+    },
+    "primevue/card": {
+      "src": "../../../../node_modules/.pnpm/primevue@3.50.0_vue@3.4.21/node_modules/primevue/card/card.esm.js",
+      "file": "primevue_card.js",
+      "fileHash": "76b4b95d",
+      "needsInterop": false
+    },
+    "primevue/button": {
+      "src": "../../../../node_modules/.pnpm/primevue@3.50.0_vue@3.4.21/node_modules/primevue/button/button.esm.js",
+      "file": "primevue_button.js",
+      "fileHash": "581ea142",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-BJRHVLNM": {
+      "file": "chunk-BJRHVLNM.js"
+    },
+    "chunk-UYTXMBLI": {
+      "file": "chunk-UYTXMBLI.js"
+    },
+    "chunk-FQGWOBD3": {
+      "file": "chunk-FQGWOBD3.js"
+    },
+    "chunk-L7IPDLAJ": {
+      "file": "chunk-L7IPDLAJ.js"
+    }
+  }
+}

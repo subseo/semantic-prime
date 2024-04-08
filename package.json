@@ -1,0 +1,41 @@
+{
+  "name": "semantic-prime",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./dist/semantic-prime.umd.js",
+  "module": "./dist/semantic-prime.es.js",
+  "types": "./dist/types/main.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && pnpm build:css && pnpm build:types",
+    "build:types": "vue-tsc --project tsconfig.build-types.json --declaration --emitDeclarationOnly --outDir dist/types ",
+    "build:css": "pnpm tailwindcss -i ./lib/index.css -o ./dist/tailwind.css && cat dist/*.css > dist/semantic-prime.css && rm ./dist/tailwind.css",
+    "preview": "vite preview",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "@types/node": "^20.12.2",
+    "primevue": "4.0.0-beta.1",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "autoprefixer": "^10.4.19",
+    "concat": "^1.0.3",
+    "postcss": "^8.4.38",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tailwindcss": "^3.4.3",
+    "tw-colors": "^3.3.1",
+    "typescript": "^5.4.3",
+    "vite": "^5.2.7",
+    "vite-plugin-dts": "^3.8.1",
+    "vitepress": "^1.0.2",
+    "vue-tsc": "^2.0.7"
+  }
+}
